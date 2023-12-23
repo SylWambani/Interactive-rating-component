@@ -1,0 +1,135 @@
+@import url("https://fonts.googleapis.com/css2?family=Overpass:wght@400;700&display=swap");
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+*,
+*:before,
+*:after {
+  box-sizing: inherit;
+}
+body {
+  font-family: "Overpass", sans-serif;
+  font-size: 15px;
+  overflow: hidden;
+}
+.main-container {
+  min-height: 100vh;
+  padding: 7%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #121417;
+}
+.container {
+  padding: 8%;
+  background-color: #252d37;
+  border-radius: 10px;
+}
+.star-icon {
+  border: none;
+  border-radius: 30px;
+  height: 30px;
+  width: 30px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 15px;
+  background-color: #7c8798;
+}
+.heading {
+  margin-bottom: 15px;
+  color: #ffffff;
+  font-size: 0.8rem;
+}
+.message {
+  margin-bottom: 25px;
+  color: #959eac;
+  line-height: 23px;
+  font-weight: 400;
+  font-size: 0.9rem;
+}
+.ratings {
+  margin-bottom: 20px;
+  display: flex;
+  justify-content: center;
+  gap: 25px;
+}
+.rate {
+  border: none;
+  border-radius: 100px;
+  width: 35px;
+  height: 35px;
+  background-color: #7c8798;
+  color: #959eac;
+  font-weight: 700;
+}
+.rate:hover {
+  cursor: pointer;
+  color: #ffffff;
+  background-color: #959eac;
+}
+.submit-btn {
+  margin-bottom: 15px;
+  width: 100%;
+  height: 40px;
+  border-radius: 40px;
+  border: none;
+  color: #ffffff;
+  background-color: #fb7413;
+  font-weight: 700;
+  letter-spacing: 4px;
+}
+.submit-btn:hover {
+  cursor: pointer;
+  color: #fb7413;
+  background-color: #ffffff;
+}
+.phone-pic {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 20px;
+}
+.results {
+  height: 30px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 30px;
+  color: #fb7413;
+  background-color: #7c8798;
+  margin-bottom: 20px;
+}
+.thanks {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 20px;
+  color: #ffffff;
+}
+.appreciation {
+  margin-bottom: 20px;
+  text-align: center;
+  color: #959eac;
+  line-height: 23px;
+  font-size: 0.9rem;
+  font-weight: 400;
+}
+@media (min-width: 576px) {
+  .main-container {
+    max-width: 1440px;
+    flex-basis: 100%;
+  }
+  body {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  .container {
+    flex-basis: 20%;
+    margin-top: -200px;
+  }
+}
